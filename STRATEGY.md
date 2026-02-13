@@ -335,8 +335,3 @@ Este proyecto de automatización proporciona:
 - ✅ **Base escalable** para agregar más funcionalidades
 
 ---
-
-**Fecha:** 13 de Febrero de 2026  
-**Proyecto:** Sauce Demo Test Automation  
-**Framework:** Playwright + Cucumber + TypeScript  
-**Patrón:** Page Object Model (POM)
