@@ -1,14 +1,30 @@
 {
   "name": "qa-automation-frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Suite de pruebas automatizadas para Sauce Demo usando Playwright y Cucumber",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test:cucumber": "cucumber-js",
+    "test:playwright": "playwright test",
+    "test:cucumber:tags": "cucumber-js --tags",
+    "test:login": "cucumber-js --tags @login",
+    "test:cart": "cucumber-js --tags @cart",
+    "test:checkout": "cucumber-js --tags @checkout"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "automation",
+    "testing",
+    "qa"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.2.3"
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2"
   }
 }
