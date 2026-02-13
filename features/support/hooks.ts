@@ -15,7 +15,7 @@ let browser: Browser;
 BeforeAll(async function () {
   browser = await chromium.launch({ 
     headless: false,      // Cambiar a true para ejecución sin interfaz gráfica
-    slowMo: 100          // Velocidad de ejecución (ms), útil para debugging
+    slowMo: 2000          // Velocidad de ejecución (ms), útil para debugging
   });
 });
 
